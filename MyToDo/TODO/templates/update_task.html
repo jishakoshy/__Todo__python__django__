@@ -1,0 +1,23 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo APP</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'update.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Update Task</h2>
+            <form method ='POST'  action="">
+                {% csrf_token %}
+                {{form}} 
+                <input type="submit"  name="Update Task">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(4, 7, 12);
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+.box{
+    border:2px solid black;
+    padding: 30px;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(216, 204, 204);
+}
+ 
+input[type="text"] {
+    width: 600px;
+    padding: 5px; 
+   
+}
+
+.box2{
+    
+}
